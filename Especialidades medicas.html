@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especialidades Medicas</title>
+    <link rel="stylesheet" href="Especialidades medicas.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido a Puerta de Hierro</h1>
+        <h3>Solicitud de empleo 2025</h3>
+
+    </header>
+
+    <div class="form-container">
+        <h2>selecciona los datos necesarios</h2>
+        
+        <div class=" form-container1"> 
+            <h5>*favor de completar todos los campos*</h5> </div>
+
+        <form action="https://formsubmit.co/ alansuelo008@gamil.com " 
+        method="POST"="procesar_formulario.php" method="post">
+           
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="especialidad">Especialidad Médica:</label>
+            <select id="especialidad" name="especialidad" required>
+                <option value="">Selecciona una especialidad</option>
+                <option value="Cardiología">Cardiología</option>
+                <option value="Dermatología">Dermatología</option>
+                <option value="Pediatría">Pediatría</option>
+                <option value="Ginecología">Ginecología</option>
+                <option value="Neurología">Neurología</option>
+                <option value="Oftalmología">Oftalmología</option>
+                <option value="Ortopedia">Ortopedia</option>
+            </select>
+
+            <label for="comentarios">Comentarios o Preguntas:</label>
+            <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>
